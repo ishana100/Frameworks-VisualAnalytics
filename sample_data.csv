@@ -1,0 +1,32 @@
+TransactionID,Date,Type,Category,SubCategory,Amount,PaymentMethod,Description
+1,2023-01-05,Income,Salary,Monthly Salary,4500,Bank Transfer,January Salary
+2,2023-01-05,Expense,Housing,Rent,1200,Bank Transfer,January Rent Payment
+3,2023-01-06,Expense,Food,Groceries,150.75,Credit Card,Weekly grocery shopping
+4,2023-01-07,Expense,Transport,Fuel,60,Debit Card,Gas for car
+5,2023-01-08,Expense,Food,Restaurant,45.5,Credit Card,Dinner with friends
+6,2023-01-10,Expense,Utilities,Electricity,85.2,Bank Transfer,Monthly electricity bill
+7,2023-01-12,Expense,Entertainment,Movies,25,Credit Card,Cinema tickets
+8,2023-01-15,Expense,Personal,Shopping,120,Debit Card,New clothes
+9,2023-01-18,Expense,Food,Groceries,95.5,Credit Card,Mid-month groceries
+10,2023-01-20,Expense,Utilities,Internet,50,Bank Transfer,Monthly internet bill
+11,2023-01-22,Expense,Transport,Public Transit,30,Debit Card,Metro pass
+12,2023-01-25,Expense,Entertainment,Streaming Service,15.99,Credit Card,Netflix subscription
+13,2023-01-28,Expense,Food,Restaurant,80,Credit Card,Weekend meal out
+14,2023-02-05,Income,Salary,Monthly Salary,4500,Bank Transfer,February Salary
+15,2023-02-05,Expense,Housing,Rent,1200,Bank Transfer,February Rent Payment
+16,2023-02-06,Expense,Food,Groceries,165.2,Credit Card,Weekly grocery shopping
+17,2023-02-08,Expense,Transport,Fuel,65,Debit Card,Gas for car
+18,2023-02-10,Expense,Utilities,Electricity,92.5,Bank Transfer,Monthly electricity bill
+19,2023-02-14,Expense,Entertainment,Gifts,75,Credit Card,Valentine's Day gift
+20,2023-02-18,Expense,Food,Groceries,110.75,Credit Card,Mid-month groceries
+21,2023-02-20,Expense,Personal,Health,55,Debit Card,Pharmacy purchase
+22,2023-02-25,Expense,Utilities,Water,40,Bank Transfer,Water bill
+23,2023-03-05,Income,Salary,Monthly Salary,4500,Bank Transfer,March Salary
+24,2023-03-05,Expense,Housing,Rent,1200,Bank Transfer,March Rent Payment
+25,2023-03-07,Expense,Food,Groceries,140.5,Credit Card,Weekly grocery shopping
+26,2023-03-09,Expense,Transport,Maintenance,250,Credit Card,Car service
+27,2023-03-11,Expense,Food,Restaurant,60,Debit Card,Lunch meeting
+28,2023-03-15,Expense,Utilities,Electricity,88,Bank Transfer,Monthly electricity bill
+29,2023-03-19,Expense,Food,Groceries,105,Credit Card,Mid-month groceries
+30,2023-03-23,Expense,Entertainment,Concert,150,Credit Card,Concert tickets
+31,2023-03-28,Expense,Personal,Shopping,200,Debit Card,New shoes and jacket

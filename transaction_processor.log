@@ -1,0 +1,60 @@
+2025-10-14 21:35:06,162 - INFO - Loading data from sample_data.csv
+2025-10-14 21:35:06,579 - ERROR - An error occurred: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 196, in main
+    processor.process_data()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 100, in process_data
+    self._add_date_features()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 110, in _add_date_features
+    self.df['year'] = self.df['date'].dt.year
+                      ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+2025-10-14 21:35:12,116 - INFO - Loading data from sample_data.csv
+2025-10-14 21:35:12,151 - ERROR - An error occurred: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 196, in main
+    processor.process_data()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 100, in process_data
+    self._add_date_features()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 110, in _add_date_features
+    self.df['year'] = self.df['date'].dt.year
+                      ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+2025-10-14 21:36:27,136 - INFO - Loading data from sample_data.csv
+2025-10-14 21:36:27,164 - ERROR - An error occurred: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 196, in main
+    processor.process_data()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 100, in process_data
+    self._add_date_features()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sabus\python\fdva\process_transactions.py", line 110, in _add_date_features
+    self.df['year'] = self.df['date'].dt.year
+                      ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "C:\Users\sabus\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
